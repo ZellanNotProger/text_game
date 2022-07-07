@@ -5,7 +5,6 @@
         public static void Main()
         {
             var lifePoints = int.Parse(Console.ReadLine("Введите колличество жизней: "));
-            //(советуется 24-36, оно делится в конце (в общем тут проблемы с рандомайзером, так что оно будет делиться))
             var player = new Player(lifePoints / 3);
             var monster = new Monster(lifePoints / 2);
             var game = new Game();
